@@ -13,3 +13,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://MICROSERVICIO-PRODUCTO/productos
+  microservicio-calcular-nuevos-precios:
+    endpoints:
+      endpoint:
+        uri: http://MICROSERVICIO-CALCULAR-NUEVOS-PRECIOS/calcular-nuevos-precios
